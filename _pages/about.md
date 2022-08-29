@@ -17,6 +17,6 @@ redirect_from:
 ---
 # Publications
 
-* 🏆 **Synthesizing Analytical SQL Quries from Computation Demonstration** (PLDI 2022 **Distinguished Paper Award**)\
-<font size="2"> **Xiangyu Zhou**, Rastislav Bodik, Alvin Cheung, Chenglong Wang </font>\
-**[[pdf](https://arxiv.org/abs/2204.07102)]** **[[artifact](https://dl.acm.org/do/10.5281/zenodo.6330232/full/)]**
+* ##### 🏆 **Synthesizing Analytical SQL Quries from Computation Demonstration** (PLDI 2022 **Distinguished Paper Award**)
+  ##### **Xiangyu Zhou**, Rastislav Bodik, Alvin Cheung, Chenglong Wang
+  ##### **[[pdf](https://arxiv.org/abs/2204.07102)]** **[[artifact](https://dl.acm.org/do/10.5281/zenodo.6330232/full/)]**
