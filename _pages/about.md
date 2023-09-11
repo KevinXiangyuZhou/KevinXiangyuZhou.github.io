@@ -8,11 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-* I'm a first-year Ph.D student in Computer Science and Engineering at University of Michigan, where I am fortunately advised by Professor *[Xinyu Wang](https://web.eecs.umich.edu/~xwangsd/)*.
+* I'm a second-year Ph.D. student in Computer Science and Engineering at University of Michigan, where I am fortunately advised by Professor *[Xinyu Wang](https://web.eecs.umich.edu/~xwangsd/)*. I studied in University of Washington and was lucky to work with Professor *[Rastislav Bodik](https://homes.cs.washington.edu/~bodik/)*, and Dr. *[Chenglong Wang](https://chenglongwang.org/)* on program synthesis in data science.
 
-* A short while ago, I studied in University of Washington as an undergraduate student and was lucky to work with Professor *[Rastislav Bodik](https://homes.cs.washington.edu/~bodik/)*, and Dr. *[Chenglong Wang](https://chenglongwang.org/)* on applying program synthesis in data science.
+* **Research**: 
+My interest lies in a cross-descipline of Programming Language, Deep Learning, and Human-centered Design. In particular, I am interested in **program synthesis** (also known as code generation), where we design algorithm and AI powered tool to help end-users solve challenging problems in various domains such as automation and data science. I believe the future development of these tools need to be powerful but also reliable and easy-to-use to various users.
 
-* I am interested in exploring AI and program synthesis-powered interactive tools that can help end-user program in various domains.
+Recently, I'm actively working on the domain of web automation, where end users could automate repetitive online procedure through interactively demonstration. 
+
+
+* 
 
 ---
 # Publications
