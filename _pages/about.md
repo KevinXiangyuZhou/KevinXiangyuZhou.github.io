@@ -15,19 +15,22 @@ My interest lies in a cross-descipline of Programming Language, Deep Learning, a
 
 * Recently, I'm actively working in the domain of web automation, where end users could automate repetitive online procedure through interactively demonstration. 
 
+<br>
 
----
 ## Publications
 
-Synthesizing Analytical SQL Quries from Computation Demonstration\
-**🏆 Distinguished Paper Award**\
-ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), 2022\
-**Xiangyu Zhou**, Rastislav Bodik, Alvin Cheung, Chenglong Wang
-[[pdf](https://arxiv.org/abs/2204.07102)] [[artifact](https://dl.acm.org/do/10.5281/zenodo.6330232/full/)]
+<font size="2">
+   <strong> Synthesizing Analytical SQL Queries from Computation Demonstration</strong><br>
+    <span style="color: red;">Distinguished Paper Award</span><br>
+    ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), 2022<br>
+    <strong>Xiangyu Zhou</strong>, Rastislav Bodik, Alvin Cheung, Chenglong Wang<br>
+    [<a href="https://arxiv.org/abs/2204.07102">pdf</a>][<a href="https://dl.acm.org/do/10.5281/zenodo.6330232/full/">artifact</a>]
+</font>
 
+<br>
 
 ## Teaching
-* Fall 2023: [EECS 481:Software Engineering](https://pbhoopala.github.io/eecs481f23/index.html)(Graduate Student Instructor)
+* Fall 2023: [EECS 481:Software Engineering](https://pbhoopala.github.io/eecs481f23/index.html) (Graduate Student Instructor)
 
 ## Services
 * 2023: PLDI (Student Volunteer)
