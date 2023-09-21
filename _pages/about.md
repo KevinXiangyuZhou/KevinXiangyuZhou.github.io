@@ -19,7 +19,7 @@ My interest lies in a cross-descipline of Programming Language, Deep Learning, a
 
 ## Publications
 
-<font size="2">
+<font size="3">
    <strong> Synthesizing Analytical SQL Queries from Computation Demonstration</strong><br>
     <span style="color: red;">Distinguished Paper Award</span><br>
     ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), 2022<br>
