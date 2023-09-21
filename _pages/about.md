@@ -13,14 +13,22 @@ redirect_from:
 * **Research**: 
 My interest lies in a cross-descipline of Programming Language, Deep Learning, and Human-centered Design. In particular, I am interested in **program synthesis** (also known as code generation), where we design algorithm and AI powered tool to help end-users solve challenging problems in various domains such as automation and data science. I believe the future development of these tools need to be powerful but also reliable and easy-to-use to various users.
 
-Recently, I'm actively working on the domain of web automation, where end users could automate repetitive online procedure through interactively demonstration. 
+* Recently, I'm actively working in the domain of web automation, where end users could automate repetitive online procedure through interactively demonstration. 
 
-
-* 
 
 ---
-# Publications
+## Publications
 
-* ##### 🏆 **Synthesizing Analytical SQL Quries from Computation Demonstration** (PLDI 2022 **Distinguished Paper Award**)
-  ##### **Xiangyu Zhou**, Rastislav Bodik, Alvin Cheung, Chenglong Wang
-  ##### **[[pdf](https://arxiv.org/abs/2204.07102)]** **[[artifact](https://dl.acm.org/do/10.5281/zenodo.6330232/full/)]**
+Synthesizing Analytical SQL Quries from Computation Demonstration\
+**🏆 Distinguished Paper Award**\
+ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), 2022\
+**Xiangyu Zhou**, Rastislav Bodik, Alvin Cheung, Chenglong Wang
+[[pdf](https://arxiv.org/abs/2204.07102)] [[artifact](https://dl.acm.org/do/10.5281/zenodo.6330232/full/)]
+
+
+## Teaching
+* Fall 2023: [EECS 481:Software Engineering](https://pbhoopala.github.io/eecs481f23/index.html)(Graduate Student Instructor)
+
+## Services
+* 2023: PLDI (Student Volunteer)
+
