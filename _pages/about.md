@@ -18,7 +18,18 @@ My interest lies in a cross-descipline of Programming Language, Deep Learning, a
 <br>
 
 ## Publications
-
+<font size="3">
+(* stands for equal contributions)<br>
+<br>
+</font>
+<font size="3">
+   <strong> Efficient Bottom-Up Synthesis for Programs with Local Variables</strong><br>
+    ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), 2024 (to appear)<br>
+    Xiang Li*, <strong>Xiangyu Zhou*</strong>, Rui Dong, Yihong Zhang, Xinyu Wang<br>
+    [<a href="https://arxiv.org/abs/2311.03705">pdf</a>][<a href="https://zenodo.org/records/10023528">artifact</a>]
+</font>
+<br>
+<br>
 <font size="3">
    <strong> Synthesizing Analytical SQL Queries from Computation Demonstration</strong><br>
     <span style="color: red;">Distinguished Paper Award</span><br>
