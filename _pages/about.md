@@ -13,7 +13,7 @@ redirect_from:
 * **Research**: 
 My interest lies in a cross-descipline of Programming Language, Deep Learning, and Human-centered Design. In particular, I am interested in **program synthesis** (also known as code generation), where we design algorithm and AI powered tool to help end-users solve challenging problems in various domains such as automation and data science. I believe the future development of these tools need to be powerful but also reliable and easy-to-use to various users.
 
-* Recently, I'm actively working in the domain of web automation, where end users could automate repetitive online procedure through interactively demonstration. 
+* Recently, I'm actively working in the domain of web automation, where end users could automate  online task procedure through interactively demonstration. 
 
 <br>
 
@@ -41,6 +41,7 @@ My interest lies in a cross-descipline of Programming Language, Deep Learning, a
 
 ## Teaching
 * Fall 2023: [EECS 481:Software Engineering](https://pbhoopala.github.io/eecs481f23/index.html) (Graduate Student Instructor)
+* Winter 2024: [EECS 481:Software Engineering](https://eecs481.org/) (Graduate Student Instructor)
 
 ## Services
 * 2023: PLDI (Student Volunteer)
