@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-* I'm a 3rd-year Ph.D. candidate in Computer Science and Engineering at University of Michigan, where I am fortunately advised by Professor *[Xinyu Wang](https://web.eecs.umich.edu/~xwangsd/)*. I received my undergraduate degree in Computer Engineering at University of Washington.
+* I'm in my 3rd-year as Ph.D. candidate in Computer Science and Engineering at University of Michigan, where I am fortunately advised by Professor *[Xinyu Wang](https://web.eecs.umich.edu/~xwangsd/)*. I received my undergraduate degree in Computer Engineering at University of Washington.
 
 * **Research**: 
 My interest lies in a cross-descipline of Programming Language, Artificial Intelligence, and Human-centered Design. In particular, I am doing research in Artificial Intelligence and symbolic algorithm powered coding agent that can help end-user in various domains such as process automation and data science.
