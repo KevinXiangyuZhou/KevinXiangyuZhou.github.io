@@ -13,8 +13,6 @@ redirect_from:
 * **Research**: 
 My interest lies in a cross-descipline of Programming Language, Artificial Intelligence, and Human-centered Design. In particular, I am doing research in Artificial Intelligence and symbolic algorithm powered coding agent that can help end-user in various domains such as process automation and data science.
 
-* **CV**: [cv](/assets/files/Xiangyu_Zhou_CV.pdf)
-
 <br>
 
 ## Publications
