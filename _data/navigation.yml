@@ -1,4 +1,7 @@
 # main links links
-- title: "CV"
-url: /assets/files/CV_Xiangyu_Zhou.pdf
+main:
+  - title: "Home"
+    url: /
 
+  - title: "CV"
+    url: /assets/files/CV_Xiangyu_Zhou.pdf.pdf
