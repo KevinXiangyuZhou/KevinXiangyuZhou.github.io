@@ -11,7 +11,7 @@ redirect_from:
 * I'm in my 3rd-year as Ph.D. candidate in [Computer Science and Engineering](https://cse.engin.umich.edu/) at [University of Michigan](https://umich.edu/), where I am fortunately advised by Professor [Xinyu Wang](https://web.eecs.umich.edu/~xwangsd/). I received my undergraduate degree in Computer Engineering at University of Washington, where I luckily worked with  Dr. [Chenglong Wang](https://chenglongwang.org/) and Professor [Rastislav Bodik](https://homes.cs.washington.edu/~bodik/).
 
 * **Research**: 
-My interest lies in a cross-descipline of Programming Language, Artificial Intelligence, and Human-centered Design. In particular, I am doing research in Artificial Intelligence and symbolic algorithm powered coding agent that can help end-user in various domains such as process automation and data science.
+My interest lies in a cross-descipline of Programming Language, Artificial Intelligence, and Human-centered Design. In particular, I am interested in building intelligent tools that boost efficiency and democratize technology for end-user in various domains.
 
 <br>
 
