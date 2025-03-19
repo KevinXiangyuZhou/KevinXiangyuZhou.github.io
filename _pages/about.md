@@ -42,7 +42,7 @@ My interest lies in a cross-descipline of Programming Language, Artificial Intel
 * Winter 2024: [EECS 481:Software Engineering](https://eecs481.org/) (Graduate Student Instructor)
 
 ## Services
-(PC stands for "Program Committee", AEC stands for "Artifact Evaluation Committee")
+(AEC stands for "Artifact Evaluation Committee")
 * 2025: [OOPSLA](https://2025.splashcon.org/track/splash-2025-oopsla-artifacts),[PLDI](https://pldi25.sigplan.org/track/pldi-2025-pldi-research-artifacts) (AEC)
 * 2024: [POPL](https://popl25.sigplan.org/) (AEC)
 * 2023: [PLDI](https://pldi23.sigplan.org/) (Student Volunteer)
