@@ -11,7 +11,7 @@ redirect_from:
 * I'm in my 4th-year as Ph.D. candidate in [Computer Science and Engineering](https://cse.engin.umich.edu/) at [University of Michigan](https://umich.edu/), where I am fortunately advised by Dr. Steve Oney. I received my undergraduate degree in Computer Engineering at University of Washington, where I luckily worked with  Dr. Chenglong Wang and Dr. Rastislav Bodik.
 
 * **Research**: 
-My interest lies in a cross-descipline of Programming Language, Artificial Intelligence, and Human-Computer Interaction. In particular, I am interested in building intelligent tools that boost efficiency and democratize technology for end-user in various domains.
+My research lies at the intersection of Human–Computer Interaction, Programming Languages, and Artificial Intelligence. I focus on empowering end users through two complementary directions: (1) developing novel programming-by-demonstration techniques that make task completion more efficient and accessible across diverse domains; and (2) deepening our understanding of users from neurological and motor-control perspectives, and creating simulation models that inform the design of more usable and inclusive interfaces.
 
 <br>
 
