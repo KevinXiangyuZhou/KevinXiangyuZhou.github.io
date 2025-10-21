@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Xiangyu Zhou — Research</title>
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#1f2937;      /* slate-800 */
+      --muted:#6b7280;     /* slate-500 */
+      --accent:#0ea5e9;    /* sky-500 */
+      --accent-muted:#e0f2fe;
+      --border:#e5e7eb;    /* gray-200 */
+      --card:#fafafa;
+      --link:#0f766e;      /* teal-700 */
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    a{color:var(--link); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:860px; margin:auto; padding:32px 20px}
+    header{display:flex; align-items:flex-start; gap:16px; margin-bottom:24px}
+    .title h1{font-size:1.9rem; line-height:1.2; margin:0}
+    .title p{margin:.25rem 0 0; color:var(--muted)}
+    .pill{
+      display:inline-block; padding:2px 8px; border-radius:999px;
+      font-size:.85rem; background:var(--accent-muted); color:var(--accent);
+      border:1px solid var(--border)
+    }
+    nav{
+      border-top:1px solid var(--border);
+      border-bottom:1px solid var(--border);
+      padding:10px 0; margin:18px 0 28px;
+      display:flex; flex-wrap:wrap; gap:12px
+    }
+    nav a{font-weight:600}
+    section{margin:28px 0}
+    section h2{
+      font-size:1.25rem; margin:0 0 .75rem;
+      border-left:4px solid var(--accent); padding-left:8px
+    }
+    .lead{
+      background:var(--card); border:1px solid var(--border);
+      border-radius:12px; padding:16px; margin-top:8px
+    }
+    ul.clean{list-style:none; padding:0; margin:0}
+    .item{
+      padding:14px 0; border-bottom:1px solid var(--border)
+    }
+    .item:last-child{border-bottom:none}
+    .pub-title{font-weight:700}
+    .byline{color:var(--muted); font-size:.95rem}
+    .venue{font-size:.95rem}
+    .badge{
+      font-size:.8rem; padding:2px 6px; border-radius:6px; border:1px solid var(--border);
+      background:var(--accent-muted); color:var(--accent); margin-left:6px
+    }
+    .links a{margin-right:10px; font-weight:600}
+    .grid-2{
+      display:grid; grid-template-columns:1fr 1fr; gap:16px
+    }
+    @media (max-width:720px){ .grid-2{grid-template-columns:1fr} }
+    footer{margin-top:36px; font-size:.95rem; color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <h1>Xiangyu Zhou</h1>
+        <p>Ph.D. Candidate, Computer Science &amp; Engineering, University of Michigan</p>
+        <span class="pill">Human–Computer Interaction · AI · Programming Systems</span>
+      </div>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#service">Service</a>
+      <a href="#fun">Fun</a>
+    </nav>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="lead">
+        I’m a 4<sup>th</sup>-year Ph.D. candidate in
+        <a href="https://cse.engin.umich.edu/">Computer Science and Engineering</a> at the
+        <a href="https://umich.edu/">University of Michigan</a>, advised by <a href="https://steveoneye.com/">Steve Oney</a>.
+        Previously, I completed my B.S. in Computer Engineering at the University of Washington, where I worked with
+        <a href="https://chenglongwang.org/">Chenglong Wang</a> and <a href="https://people.eecs.berkeley.edu/~bodik/">Rastislav Bodik</a>.
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <p>
+        I build systems at the intersection of <strong>Human–Computer Interaction</strong>, <strong>Artificial Intelligence</strong>, and
+        <strong>Programming Languages</strong> to make computing feel more natural and effective.
+      </p>
+      <div class="grid-2">
+        <div class="lead">
+          <strong>Interactive Tools &amp; Automation</strong><br />
+          Programming and automation tools that make data extraction, analysis, and web interaction faster and more accessible.
+        </div>
+        <div class="lead">
+          <strong>Human Behavior Modeling</strong><br />
+          Simulation models of how people move, decide, and adapt in interfaces—informing better UI and AI system design.
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul class="clean">
+        <li class="item">
+          <div class="pub-title">Efficient Bottom-Up Synthesis for Programs with Local Variables</div>
+          <div class="venue">POPL 2024</div>
+          <div class="byline">Xiang Li*; <strong>Xiangyu Zhou*</strong>; Rui Dong; Yihong Zhang; Xinyu Wang <span class="badge">* equal contribution</span></div>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2311.03705">PDF</a>
+            <a href="https://zenodo.org/records/10023528">Artifact</a>
+          </div>
+        </li>
+        <li class="item">
+          <div class="pub-title">Synthesizing Analytical SQL Queries from Computation Demonstration</div>
+          <div class="venue">PLDI 2022 <span class="badge">Distinguished Paper</span></div>
+          <div class="byline"><strong>Xiangyu Zhou</strong>; Rastislav Bodik; Alvin Cheung; Chenglong Wang</div>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2204.07102">PDF</a>
+            <a href="https://dl.acm.org/do/10.5281/zenodo.6330232/full/">Artifact</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul class="clean">
+        <li class="item"><strong>EECS 481: Software Engineering</strong> — Graduate Student Instructor (Fall 2023), (Winter 2024)</li>
+      </ul>
+    </section>
+
+    <section id="service">
+      <h2>Service</h2>
+      <ul class="clean">
+        <li class="item">2025 — OOPSLA AEC; PLDI AEC</li>
+        <li class="item">2024 — POPL AEC</li>
+        <li class="item">2023 — PLDI Student Volunteer</li>
+      </ul>
+    </section>
+
+    <section id="fun">
+      <h2>Fun</h2>
+      <p>I make and post art on <a href="https://www.pixiv.net/users/21172917">pixiv</a>.</p>
+    </section>
+
+    <footer>
+      Last updated Oct 2025 · Feel free to reach out: xiangyz[at]umich.edu
+    </footer>
+  </div>
+</body>
+</html>
