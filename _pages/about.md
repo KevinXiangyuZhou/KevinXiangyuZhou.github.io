@@ -22,9 +22,9 @@ and <a href="https://homes.cs.washington.edu/~bodik/">Dr. Rastislav Bodik</a>.
 
 <p>
 My research lies at the intersection of 
-<strong>Human–Computer Interaction (HCI)</strong>, 
-<strong>Programming Languages (PL)</strong>, 
-and <strong>Artificial Intelligence (AI)</strong>. 
+Human–Computer Interaction (HCI), 
+Programming Languages (PL), 
+and Artificial Intelligence (AI). 
 I focus on empowering end users through two complementary directions:
 </p>
 
