@@ -12,11 +12,11 @@ redirect_from:
 I am a fourth-year Ph.D. candidate in 
 <a href="https://cse.engin.umich.edu/">Computer Science and Engineering</a> 
 at the <a href="https://umich.edu/">University of Michigan</a>, 
-advised by <a href="https://from.so/Steve_Oney/">Dr. Steve Oney</a>. 
+advised by <a href="https://from.so/Steve_Oney/">Steve Oney</a>. 
 I received my B.S. in Computer Engineering from the 
 <a href="https://www.washington.edu/">University of Washington</a>, 
-where I worked with <a href="https://chenglongwang.org/">Dr. Chenglong Wang</a> 
-and <a href="https://homes.cs.washington.edu/~bodik/">Dr. Rastislav Bodik</a>.
+where I worked with <a href="https://chenglongwang.org/">Chenglong Wang</a> 
+and <a href="https://homes.cs.washington.edu/~bodik/">Rastislav Bodik</a>.
 </p>
 
 
