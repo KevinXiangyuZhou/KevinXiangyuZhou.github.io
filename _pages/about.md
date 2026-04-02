@@ -53,6 +53,18 @@ I focus on empowering end users through two complementary directions:
 <p><em>(* indicates equal contribution)</em></p>
 
 <p>
+<strong>Simulating Individual Cursor Steering Behavior in Path-Dependent Tasks</strong><br>
+<i>preprint</i>, 2026<br>
+<strong>Xiangyu Zhou</strong>, Steve Oney
+</p>
+
+<p>
+<strong>Simulating Human Cursor Trajectories for Path-Sensitive GUI Evaluation</strong><br>
+<i>Extended Abstracts of the ACM CHI Conference on Human Factors in Computing Systems (CHI EA)</i>, 2026<br>
+<strong>Xiangyu Zhou</strong>, Steve Oney
+</p>
+
+<p>
 <strong>Efficient Bottom-Up Synthesis for Programs with Local Variables</strong><br>
 <i>ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)</i>, 2024<br>
 Xiang Li*, <strong>Xiangyu Zhou*</strong>, Rui Dong, Yihong Zhang, Xinyu Wang<br>
