@@ -21,23 +21,10 @@ and <a href="https://homes.cs.washington.edu/~bodik/">Rastislav Bodik</a>.
 
 
 <p>
-My research lies at the intersection of 
-Human–Computer Interaction (HCI), 
-Programming Languages (PL), 
-and Artificial Intelligence (AI). 
-I focus on empowering end users through two complementary directions:
+My recent research interest lies in computational user simulation model that can reproduce human behaviors in interactive tasks to enable exploration of better interface designs.
 </p>
 
-<ol>
-  <li>
-    Developing interactive programming and automation tools that make data extraction, analysis, 
-    and web interaction more efficient and accessible.
-  </li>
-  <li>
-    Studying how people move, decide, and adapt during interactive tasks, and creating simulation 
-    models that reproduce these behaviors to inform better interface and AI system design.
-  </li>
-</ol>
+
 
 
 <!-- <h2>News</h2>
@@ -62,6 +49,7 @@ I focus on empowering end users through two complementary directions:
 <strong>Simulating Human Cursor Trajectories for Path-Sensitive GUI Evaluation</strong><br>
 <i>Extended Abstracts of the ACM CHI Conference on Human Factors in Computing Systems (CHI EA)</i>, 2026<br>
 <strong>Xiangyu Zhou</strong>, Steve Oney
+<a href="https://dl.acm.org/doi/10.1145/3772363.3798829">[PDF]</a> 
 </p>
 
 <p>
@@ -80,17 +68,3 @@ Xiang Li*, <strong>Xiangyu Zhou*</strong>, Rui Dong, Yihong Zhang, Xinyu Wang<br
 <a href="https://arxiv.org/abs/2204.07102">[PDF]</a> 
 <a href="https://dl.acm.org/do/10.5281/zenodo.6330232/full/">[Artifact]</a>
 </p>
-
-
-
-
-<h2>Service</h2>
-
-<p><em>(AEC = Artifact Evaluation Committee)</em></p>
-
-<ul>
-  <li>2025 — <a href="https://2025.splashcon.org/track/splash-2025-oopsla-artifacts">OOPSLA</a>, 
-  <a href="https://pldi25.sigplan.org/track/pldi-2025-pldi-research-artifacts">PLDI</a> (AEC)</li>
-  <li>2024 — <a href="https://popl25.sigplan.org/">POPL</a> (AEC)</li>
-  <li>2023 — <a href="https://pldi23.sigplan.org/">PLDI</a> (Student Volunteer)</li>
-</ul>
