@@ -21,7 +21,7 @@ and <a href="https://homes.cs.washington.edu/~bodik/">Rastislav Bodik</a>.
 
 
 <p>
-My recent research interest lies in computational user simulation model that can reproduce human behaviors in interactive tasks to enable exploration of better interface designs.
+My recent research interest lies in computational user simulation model that can reproduce human behaviors in interactive tasks to enable evaluation of user interface designs.
 </p>
 
 
