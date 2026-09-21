@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p>
-I am a fourth-year Ph.D. candidate in 
+I am a fifth-year Ph.D. candidate in 
 <a href="https://cse.engin.umich.edu/">Computer Science and Engineering</a> 
 at the <a href="https://umich.edu/">University of Michigan</a>, 
 advised by <a href="https://from.so/Steve_Oney/">Steve Oney</a>. 
@@ -48,7 +48,7 @@ My recent research interest lies in computational user simulation model that can
 <p>
 <strong>Simulating Human Cursor Trajectories for Path-Sensitive GUI Evaluation</strong><br>
 <i>Extended Abstracts of the ACM CHI Conference on Human Factors in Computing Systems (CHI EA)</i>, 2026<br>
-<strong>Xiangyu Zhou</strong>, Steve Oney
+<strong>Xiangyu Zhou</strong>, Steve Oney<br>
 <a href="https://dl.acm.org/doi/10.1145/3772363.3798829">[PDF]</a> 
 </p>
 
