@@ -1,0 +1,30 @@
+# News items for the homepage, newest first.
+# `text` accepts inline HTML (links, <em>, <strong>).
+# The first `visible` items are shown; the rest sit behind "Show older news".
+
+- date: "Nov 2026"
+  text: "I'm looking for a <strong>Summer 2027 internship</strong>. If you think my work is a fit, please <a href=\"mailto:xiangyz@umich.edu\">reach out</a>."
+
+- date: "Nov 2026"
+  text: "Open-sourced our <a href=\"https://github.com/KevinXiangyuZhou/adaptive-cursor-trajectory-simulator\">cursor simulator</a> and a <a href=\"https://github.com/KevinXiangyuZhou/Constraint-Aware-Toolkit-for-WebGUI-Design\">Chrome extension</a> that lets designers run it on live websites."
+
+- date: "Apr 2026"
+  text: "Presented our poster on simulating cursor trajectories for GUI evaluation at <em>CHI 2026</em> in Barcelona."
+
+- date: "Feb 2026"
+  text: "<a href=\"https://dl.acm.org/doi/10.1145/3772363.3798829\">Simulating Human Cursor Trajectories for Path-Sensitive GUI Evaluation</a> was accepted as a poster at <em>CHI 2026</em>."
+
+- date: "2025"
+  text: "Served on the Artifact Evaluation Committees of <em>POPL</em>, <em>PLDI</em>, and <em>OOPSLA 2025</em>, and reviewed for <em>CHI 2026 Extended Abstracts</em>."
+
+- date: "Apr 2025"
+  text: "Started a new line of work on computational user simulation for interface evaluation."
+
+- date: "Jan 2024"
+  text: "Presented <a href=\"https://arxiv.org/abs/2311.03705\">Arborist</a>, our bottom-up synthesizer for web automation, at <em>POPL 2024</em> in London."
+
+- date: "Sep 2022"
+  text: "Started my Ph.D. at the University of Michigan, advised by <a href=\"https://from.so/Steve_Oney/\">Steve Oney</a>."
+
+- date: "Jun 2022"
+  text: "Our <em>PLDI 2022</em> paper on <a href=\"https://arxiv.org/abs/2204.07102\">Sickle</a> received a <strong>Distinguished Paper Award</strong>."

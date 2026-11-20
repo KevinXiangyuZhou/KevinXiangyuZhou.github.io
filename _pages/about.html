@@ -1,0 +1,220 @@
+---
+layout: homepage
+permalink: /
+title: "Xiangyu Zhou"
+excerpt: "Xiangyu Zhou is a Ph.D. candidate at the University of Michigan building computational user models that evaluate interfaces automatically, and no-code systems that let people program by demonstration."
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<!-- ============ Intro ============ -->
+<section class="intro" aria-label="About">
+  <img class="intro__photo" src="{{ '/images/profile-photo.jpg' | relative_url }}" alt="Portrait of Xiangyu Zhou" width="160" height="160">
+  <div class="intro__text">
+    <h1 class="intro__name">Xiangyu Zhou</h1>
+    <p class="intro__role">
+      Ph.D. Candidate, <a href="https://cse.engin.umich.edu/">Computer Science &amp; Engineering</a><br>
+      <a href="https://umich.edu/">University of Michigan</a> · Advised by <a href="https://from.so/Steve_Oney/">Steve Oney</a>
+    </p>
+    <ul class="intro__links">
+      <li><a class="pill" href="mailto:{{ site.author.email }}">Email</a></li>
+      <li><a class="pill" href="{{ site.author.cv | relative_url }}">Resume</a></li>
+      <li><a class="pill" href="{{ site.author.googlescholar }}">Google Scholar</a></li>
+      <li><a class="pill" href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+      <li><a class="pill" href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a></li>
+    </ul>
+  </div>
+</section>
+
+<p class="notice">
+  <strong>Seeking a Summer 2027 internship.</strong>
+  I'd be glad to talk about user simulation, human-centered AI, or programming tools. <a href="mailto:{{ site.author.email }}">Get in touch</a>.
+</p>
+
+<div class="bio">
+  <p>
+    I work at the intersection of <strong>HCI</strong>, <strong>AI</strong>, and <strong>programming languages</strong>.
+    My research builds computational models of people: what they intend, and how they act.
+    Today I build <a href="#theme-simulation"><strong>user simulators that evaluate interfaces automatically</strong></a>,
+    generating realistic human interaction on a design before anyone runs a user study.
+    Before that, I built <a href="#theme-nocode"><strong>no-code programming systems</strong></a>
+    that let non-programmers specify tasks through demonstrations and natural language.
+  </p>
+  <p>
+    I received my B.S. in Computer Engineering from the <a href="https://www.washington.edu/">University of Washington</a>,
+    where I worked with <a href="https://chenglongwang.org/">Chenglong Wang</a> and
+    <a href="https://homes.cs.washington.edu/~bodik/">Rastislav Bodik</a>.
+  </p>
+</div>
+
+<!-- ============ News ============ -->
+<section id="news" class="section">
+  <h2 class="section__title">News</h2>
+  {% assign visible = 5 %}
+  <ul class="news">
+    {% for item in site.data.news limit: visible %}
+      <li class="news__item"><span class="news__date">{{ item.date }}</span><span class="news__text">{{ item.text }}</span></li>
+    {% endfor %}
+  </ul>
+  {% if site.data.news.size > visible %}
+  <details class="news__more">
+    <summary>Show older news</summary>
+    <ul class="news">
+      {% for item in site.data.news offset: visible %}
+        <li class="news__item"><span class="news__date">{{ item.date }}</span><span class="news__text">{{ item.text }}</span></li>
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+</section>
+
+<!-- ============ Research ============ -->
+<section id="research" class="section">
+  <h2 class="section__title">Research</h2>
+  <p class="lead">
+    One question runs through my work: <em>what will a person actually do?</em>
+    I started by inferring what people <em>want</em> from a few demonstrations, so they could program without code.
+    Now I predict how people <em>move</em> through an interface, so designers can find usability problems before a study.
+    In both, I turn human behavior into a model a computer can search, optimize, or simulate.
+  </p>
+
+  <ol class="storyline">
+    <!-- Chapter: now -->
+    <li class="chapter" id="theme-simulation">
+      <div class="chapter__marker" aria-hidden="true"></div>
+      <p class="chapter__when">Now · 2025 to present</p>
+      <h3 class="chapter__title">Simulating users to evaluate interfaces</h3>
+      <p class="chapter__question">Can we see where people will struggle with a design before recruiting anyone?</p>
+      <p class="chapter__intro">
+        Usability problems usually surface late, in user studies that are slow and costly to repeat.
+        I build computational user models in an agentic framework that generate synthetic human interaction on a given interface.
+        The models are grounded in human-factors literature and our own user studies, and validated against human data.
+      </p>
+
+      <article class="project">
+        <div class="project__body">
+          <p class="project__venue"><span class="chip">CHI 2026 · Poster</span></p>
+          <h4 class="project__title">Simulating Human Cursor Trajectories for Path-Sensitive GUI Evaluation</h4>
+          <p class="project__authors"><strong>Xiangyu Zhou</strong>, Steve Oney</p>
+          <p class="project__desc">
+            Some interactions only work if the cursor stays on a path. A cascading menu closes if you slip off it,
+            and a lasso selection fails if you cut a corner. Earlier models predict only completion time for these tasks.
+            Our simulator produces full cursor trajectories by treating movement as receding-horizon optimization
+            (Model Predictive Contouring Control) that balances speed, smoothness, and staying in bounds.
+            Its paths closely match human data on tunnels, cascading menus, and lasso selection.
+          </p>
+          <p class="project__links">
+            <a class="btn" href="https://dl.acm.org/doi/10.1145/3772363.3798829">Paper</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__body">
+          <p class="project__venue"><span class="chip chip--muted">Under review</span></p>
+          <h4 class="project__title">Pace by Gaze: A Gaze-Informed Simulator of Constrained Cursor Movement</h4>
+          <p class="project__authors"><strong>Xiangyu Zhou</strong>, Beichen Xue, Yue Jiang, Steve Oney</p>
+          <p class="project__desc">
+            People look ahead, and the hand follows. This closed-loop simulator models both:
+            regression models fit to data from our user studies predict the eye-gaze horizon,
+            and a Model Predictive Control policy drives the arm and hand to get there.
+            A personalization layer fits the simulator to individual users and personas from short calibration data,
+            recovering per-user behavioral parameters.
+          </p>
+        </div>
+      </article>
+    </li>
+
+    <!-- Bridge -->
+    <li class="bridge">
+      <div class="chapter__marker chapter__marker--small" aria-hidden="true"></div>
+      <p>
+        <strong>How I got here.</strong> Building tools that learn from what users show them taught me how much a system depends on
+        a good model of the person on the other side. That led me from inferring intent to simulating behavior.
+      </p>
+    </li>
+
+    <!-- Chapter: before -->
+    <li class="chapter" id="theme-nocode">
+      <div class="chapter__marker" aria-hidden="true"></div>
+      <p class="chapter__when">Earlier · 2020 to 2025</p>
+      <h3 class="chapter__title">No-code programming by demonstration</h3>
+      <p class="chapter__question">Can people who don't code still get a computer to do what they mean?</p>
+      <p class="chapter__intro">
+        Many people need to automate a web workflow or analyze a table but cannot write the program.
+        I built systems that let them specify tasks by example, combining structured demonstrations,
+        program synthesis, and LLMs. I developed search algorithms fast enough for interactive use
+        and implemented the stack end to end, from DSL design to interpreters and synthesis engines in Python and Rust.
+      </p>
+
+      <article class="project">
+        <div class="project__body">
+          <p class="project__venue"><span class="chip">PLDI 2022</span> <span class="chip chip--award">Distinguished Paper Award</span></p>
+          <h4 class="project__title">Synthesizing Analytical SQL Queries from Computation Demonstration</h4>
+          <p class="project__authors"><strong>Xiangyu Zhou</strong>, Rastislav Bodik, Alvin Cheung, Chenglong Wang</p>
+          <p class="project__desc">
+            Analytical SQL, with grouping, partitioning, and window functions, is hard for novices, and giving full input-output examples is tedious.
+            In Sickle, users instead <em>demonstrate</em> how a few output cells are computed by dragging cells from the input table.
+            A new abstraction, abstract data provenance, prunes the search.
+            Sickle solves 76 of 80 real-world tasks and is 22.5&times; faster on average than prior approaches.
+          </p>
+          <p class="project__links">
+            <a class="btn" href="https://arxiv.org/abs/2204.07102">Paper</a>
+            <a class="btn" href="https://dl.acm.org/doi/10.1145/3519939.3523712">ACM DL</a>
+            <a class="btn" href="https://dl.acm.org/do/10.5281/zenodo.6330232/full/">Artifact</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__body">
+          <p class="project__venue"><span class="chip">POPL 2024</span></p>
+          <h4 class="project__title">Efficient Bottom-Up Synthesis for Programs with Local Variables</h4>
+          <p class="project__authors">Xiang Li*, <strong>Xiangyu Zhou*</strong>, Rui Dong, Yihong Zhang, Xinyu Wang</p>
+          <p class="project__desc">
+            Web automation programs loop over data and bind local variables, which earlier bottom-up synthesizers
+            could not evaluate or prune. Our key idea, <em>lifted interpretation</em>, evaluates all programs from a grammar at once
+            and enumerates every binding context for local variables.
+            Our tool, Arborist, solves 93.9% of a challenging web automation benchmark, beating the prior state of the art.
+          </p>
+          <p class="project__links">
+            <a class="btn" href="https://arxiv.org/abs/2311.03705">Paper</a>
+            <a class="btn" href="https://zenodo.org/records/10023528">Artifact</a>
+          </p>
+        </div>
+      </article>
+    </li>
+  </ol>
+</section>
+
+<!-- ============ Publications ============ -->
+<section id="publications" class="section">
+  <h2 class="section__title">Publications</h2>
+  <p class="muted small">* equal contribution · Full list on <a href="{{ site.author.googlescholar }}">Google Scholar</a></p>
+  <ul class="pubs">
+    {% for pub in site.data.publications %}
+      <li class="pub">
+        <span class="pub__year">{{ pub.year }}</span>
+        <div>
+          <p class="pub__title">{{ pub.title }}</p>
+          <p class="pub__authors">{{ pub.authors }}</p>
+          <p class="pub__venue"><em>{{ pub.venue }}</em>{% if pub.award %} · <span class="pub__award">{{ pub.award }}</span>{% endif %}
+            {% for link in pub.links %}<a class="pub__link" href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+          </p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<!-- ============ Teaching & Service ============ -->
+<section id="teaching" class="section">
+  <h2 class="section__title">Teaching &amp; Service</h2>
+  <dl class="facts">
+    <dt>Teaching</dt>
+    <dd>Graduate Student Instructor, University of Michigan: EECS 481 Software Engineering (2 semesters), EECS 183 Elementary Programming Concepts (3 semesters)</dd>
+    <dt>Service</dt>
+    <dd>Artifact Evaluation Committee, PLDI '25, POPL '25, OOPSLA '25 · Reviewer, CHI '26 Extended Abstracts</dd>
+  </dl>
+</section>

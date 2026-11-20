@@ -1,0 +1,38 @@
+# Publications for the homepage, newest first.
+# `authors` accepts inline HTML; wrap your own name in <strong>.
+
+- title: "Pace by Gaze: A Gaze-Informed Simulator of Constrained Cursor Movement"
+  authors: "<strong>Xiangyu Zhou</strong>, Beichen Xue, Yue Jiang, Steve Oney"
+  venue: "Manuscript under review"
+  year: 2027
+
+- title: "Simulating Human Cursor Trajectories for Path-Sensitive GUI Evaluation"
+  authors: "<strong>Xiangyu Zhou</strong>, Steve Oney"
+  venue: "CHI 2026 Extended Abstracts (Poster)"
+  year: 2026
+  links:
+    - label: "Paper"
+      url: "https://dl.acm.org/doi/10.1145/3772363.3798829"
+
+- title: "Efficient Bottom-Up Synthesis for Programs with Local Variables"
+  authors: "Xiang Li*, <strong>Xiangyu Zhou*</strong>, Rui Dong, Yihong Zhang, Xinyu Wang"
+  venue: "POPL 2024"
+  year: 2024
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2311.03705"
+    - label: "Artifact"
+      url: "https://zenodo.org/records/10023528"
+
+- title: "Synthesizing Analytical SQL Queries from Computation Demonstration"
+  authors: "<strong>Xiangyu Zhou</strong>, Rastislav Bodik, Alvin Cheung, Chenglong Wang"
+  venue: "PLDI 2022"
+  year: 2022
+  award: "Distinguished Paper Award"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2204.07102"
+    - label: "ACM DL"
+      url: "https://dl.acm.org/doi/10.1145/3519939.3523712"
+    - label: "Artifact"
+      url: "https://dl.acm.org/do/10.5281/zenodo.6330232/full/"

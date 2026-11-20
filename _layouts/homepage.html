@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | escape }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/images/profile-photo.jpg">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="site-header__name" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+      <nav class="site-nav" aria-label="Sections">
+        <a href="#news">News</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="{{ site.author.cv | relative_url }}">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      &copy; {{ 'now' | date: '%Y' }} {{ site.author.name }} · Last updated {{ site.time | date: '%b %Y' }}
+    </div>
+  </footer>
+
+  <script>
+    // Highlight the nav link for the section in view.
+    (function () {
+      var links = document.querySelectorAll('.site-nav a[href^="#"]');
+      if (!('IntersectionObserver' in window) || !links.length) return;
+      var byId = {};
+      links.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          links.forEach(function (a) { a.classList.remove('is-active'); });
+          var a = byId[e.target.id];
+          if (a) a.classList.add('is-active');
+        });
+      }, { rootMargin: '-45% 0px -50% 0px' });
+      Object.keys(byId).forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) io.observe(el);
+      });
+    })();
+  </script>
+</body>
+</html>
